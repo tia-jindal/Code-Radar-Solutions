@@ -4,8 +4,9 @@ int main()
 {
     int a;
     scanf("%d",&a);
+    int bits = sizeof(int) * 8; 
     
-    if((num >> (bits - 1)) & 1)
+    if((a >> (bits - 1)) & 1)
     {
         printf("Set");
     }
