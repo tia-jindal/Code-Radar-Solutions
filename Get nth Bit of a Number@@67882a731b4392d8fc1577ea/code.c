@@ -7,7 +7,7 @@ int getNthBit(int num, int n) {
 
 int main()
 {
-    int a;,b
+    int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
     int bit = getNthBit(a,b); 
