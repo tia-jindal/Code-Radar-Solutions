@@ -12,6 +12,6 @@ int main()
     scanf("%d",&b);
     int bit = getNthBit(a,b); 
     
-    printf(bit);
+    printf("%d",bit);
     return 0;
 }
