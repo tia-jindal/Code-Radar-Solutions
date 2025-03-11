@@ -2,8 +2,8 @@
 #include <stdio.h>
 int main()
 {
-    string ch = 0;
-    scanf("%s",&ch);
+    char ch[100];
+    scanf("%c",&ch);
     printf("You entered: %s",ch);
     return 0;
 }
