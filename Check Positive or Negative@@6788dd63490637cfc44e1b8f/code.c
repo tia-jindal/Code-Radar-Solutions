@@ -12,7 +12,7 @@ int main()
     }
     else if(n<0)
     {
-        printf("Odd");
+        printf("Negative");
     }
     else
     {
